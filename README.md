@@ -4,6 +4,8 @@
 
 A local ETL demo for running, inspecting, and monitoring CSV-to-SQLite data pipelines.
 
+[Open the live dashboard](https://data-pipeline-monitoring-dashboard-ppxxsa6uavsqto5xbuffjz.streamlit.app/)
+
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
