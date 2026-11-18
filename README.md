@@ -20,6 +20,15 @@ Run the bundled sample or upload an orders CSV, then inspect each pipeline stage
 - **Transform** — Clean and validate rows, and report rejected records.
 - **Load** — Save valid orders to SQLite, storing amounts as integer cents.
 - **Monitor** — Record stage statuses, counts, duration, and a result summary for each run.
+## Screenshots
+
+### Pipeline run
+
+![Dashboard showing a successful CSV upload and pipeline summary](./docs/screenshots/pipeline-run.png)
+
+### Recent run history
+
+![Dashboard showing recent run metrics and run history](./docs/screenshots/run-history.png)
 
 ## Getting started
 
@@ -61,15 +70,6 @@ The dark-themed dashboard shows the selected run's Extract, Transform, and Load 
 
 On the first run, SQLite creates `pipeline.sqlite3` next to the app. It persists across restarts, and each run is saved as a separate snapshot. The database is excluded from Git. This is a local demo and does not isolate database records between users, so use only non-sensitive sample data if you share or deploy it.
 
-## Screenshots
-
-### Pipeline run
-
-![Dashboard showing a successful CSV upload and pipeline summary](./docs/screenshots/pipeline-run.png)
-
-### Recent run history
-
-![Dashboard showing recent run metrics and run history](./docs/screenshots/run-history.png)
 
 ## Possible integrations
 
