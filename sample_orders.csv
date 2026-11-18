@@ -1,0 +1,9 @@
+order_id,product,amount
+ORD-1001,Notebook,12.50
+ ORD-1002 , Desk Lamp ,29.95
+ORD-1003,Water Bottle,18
+ORD-1004,Backpack,49.99
+ORD-1005,USB Cable,8.75
+,Pencil Case,5.25
+ORD-1006,Monitor Stand,-9.99
+ORD-1001,Duplicate Notebook,12.50

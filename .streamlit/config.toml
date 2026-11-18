@@ -1,0 +1,11 @@
+[theme]
+base = "dark"
+primaryColor = "#4ade80"
+backgroundColor = "#242424"
+secondaryBackgroundColor = "#303030"
+textColor = "#fafafa"
+borderColor = "#080808"
+showWidgetBorder = true
+
+[server]
+maxUploadSize = 5
