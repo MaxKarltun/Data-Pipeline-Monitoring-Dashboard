@@ -61,6 +61,16 @@ The dark-themed dashboard shows the selected run's Extract, Transform, and Load 
 
 On the first run, SQLite creates `pipeline.sqlite3` next to the app. It persists across restarts, and each run is saved as a separate snapshot. The database is excluded from Git. This is a local demo and does not isolate database records between users, so use only non-sensitive sample data if you share or deploy it.
 
+## Screenshots
+
+### Pipeline run
+
+![Dashboard showing a successful CSV upload and pipeline summary](./docs/screenshots/pipeline-run.png)
+
+### Recent run history
+
+![Dashboard showing recent run metrics and run history](./docs/screenshots/run-history.png)
+
 ## Possible integrations
 
 Airflow, Databricks, Snowflake, and Azure Data Factory are not required or currently connected. A future adapter could map their run histories and stage metrics into this dashboard's monitoring format.
