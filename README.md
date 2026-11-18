@@ -74,3 +74,5 @@ On the first run, SQLite creates `pipeline.sqlite3` next to the app. It persists
 ## Possible integrations
 
 Airflow, Databricks, Snowflake, and Azure Data Factory are not required or currently connected. A future adapter could map their run histories and stage metrics into this dashboard's monitoring format.
+
+By: Max Karltun
